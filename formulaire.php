@@ -42,15 +42,26 @@
       </select>
       <br><hr>
 
-
        <!-- • loisirs (boutons à cocher) -->
-
-
+       <label for="loisir">Loisir</label>
+       <select class="" name="loisir">
+         <option value="sport">sport</option>
+         <option value="geeker">geeker</option>
+         <option value="sortir">sortir</option>
+       </select>
+      <br><hr>
 
       <!-- • envoyer un fichier -->
-
-
-
+      <form class="" action="cible_envoi.php" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="monfichier">Upload image</label><br><br>
+          <input type="file" name="monfichier"><br><br>
+          <input type="submit" value="envoie de monfichier">
+          <button type="reset" name="button-reset">recommencer</button>
+        </p>
+      </form>
+                          <hr><br>
+      <input type="submit" name="envoie-du-formulaire" value="Inscription">
 
       <!-- input type reset -->
 
