@@ -1,0 +1,13 @@
+nav{
+  display:inline-flex;
+  height: 200px;
+}
+nav ul{
+  display:flex;
+}
+nav ul li {
+  display: inline-flex;
+  padding: inherit;
+  border-style:hidden;
+  margin: auto;
+}
