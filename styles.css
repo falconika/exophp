@@ -1,13 +1,32 @@
+body{
+  font-style:oblique;
+  font-family: cursive;
+  font-weight: bold;
+}
 nav{
   display:inline-flex;
   height: 200px;
 }
 nav ul{
   display:flex;
+  padding-bottom: 20px;
+
 }
 nav ul li {
   display: inline-flex;
   padding: inherit;
   border-style:hidden;
   margin: auto;
+  padding-bottom: 20px;
+}
+.formulaire {
+ padding-bottom: 20px;
+  align-items: center;
+  padding-left: 200px;
+}
+.inscription{
+  display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }

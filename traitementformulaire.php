@@ -1,3 +1,6 @@
+
+
+
 <!-- conditions:    • Toutes les infos doivent être saisies -->
     <!-- • Il doit être impossible d'entrer du code HTML dans les zones de texte -->
     <!-- • l'âge doit être un integer -->
